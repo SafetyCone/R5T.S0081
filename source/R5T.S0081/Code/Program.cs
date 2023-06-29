@@ -7,7 +7,7 @@ namespace R5T.S0081
     {
         static void Main()
         {
-            Console.WriteLine("Hello World!");
+            ProjectFilePathScripts.Instance.Get_BackupProjectFilePath();
         }
     }
 }
