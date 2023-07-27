@@ -7,7 +7,8 @@ namespace R5T.S0081
     {
         static void Main()
         {
-            ProjectFilePathScripts.Instance.Get_BackupProjectFilePath();
+            //ProjectFilePathScripts.Instance.Get_BackupProjectFilePath();
+            ProjectFilePathScripts.Instance.Get_PublishDirectoryDocumentationFilePath();
         }
     }
 }
